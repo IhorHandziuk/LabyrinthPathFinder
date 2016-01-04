@@ -11,37 +11,6 @@
 
 Labyrinth* c;
 
-//void display ()
-//{
-//	glClear(GL_COLOR_BUFFER_BIT);								
-//	glColor3f(0.0f,0.0f,0.0f);
-//	glPointSize(2.0);
-//	glDisable(GL_LINE_SMOOTH);
-//	glLineWidth(2.0);
-//	glBegin(GL_LINES);
-//	for (GLint i = 0; i < c->cellsNum; i++) {
-//		for (GLint way = 0; way < 4; way++) {
-//			if (c->maze[i].dir[way].painted) {
-//				glVertex2f(c->maze[i].dir[way].x1, c->maze[i].dir[way].y1);
-//				glVertex2f(c->maze[i].dir[way].x2, c->maze[i].dir[way].y2);
-//			}
-//		}
-//	}
-//	glEnd();
-//	glColor4f(1.0f,0.0f,0.0f, 0.8);
-//	glBegin(GL_QUADS);
-//	for (GLint i = 0; i < c->cellsNum; i++)
-//		if (!c->maze[i].visited)
-//		{
-//			glVertex2f(c->maze[i].dir[up].x1, c->maze[i].dir[up].y1);
-//			glVertex2f(c->maze[i].dir[up].x2, c->maze[i].dir[up].y2);
-//			glVertex2f(c->maze[i].dir[ri].x2, c->maze[i].dir[ri].y2);
-//			glVertex2f(c->maze[i].dir[le].x2, c->maze[i].dir[le].y2);
-//		}
-//	glEnd();
-//	glutSwapBuffers();
-//}
-
 GLuint LoadTexture(string name)
 {
 	    sf::Image image;
