@@ -1,2 +1,2 @@
-This program creates a model of labyrinth
+This program creates a labyrinth model
 To rotate model use 'w', 's', 'q', 'e', 'a', 'd' bottons.
